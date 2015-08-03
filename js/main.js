@@ -21,8 +21,8 @@ for (var i = students.length-1; i >= 0; i--) {
 }
 
 for (var i = 0; i < students.length; i++) {
-  if (students[0] === students[i]){
-    console.log(students[0]);
+  if (i === 0 || i === 4){
+    console.log(students[i]);
   } else {
     console.log(students[i]);
     console.log(students[i]);
